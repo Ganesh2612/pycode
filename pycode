@@ -1,0 +1,10 @@
+a=[1,98]
+count=0
+for i in range(len(a)-1):
+    if a[i]<=a[i+1]:
+        count+=1
+if count==len(a)-1 or len(a)==0:
+    print("yes")
+else:
+    print("NO") 
+    
